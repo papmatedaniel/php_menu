@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+div#menu{
+    background-color: aqua;
+    text-align: center;
+}
+
+div#menu a{
+    display: inline;
+    color: rgb(79, 0, 0);
+    text-decoration: none;
+    width: 80px;
+}
+div#menu a:hover{
+    display: inline;
+    color: rgb(33, 79, 0);
+    background-color: antiquewhite;
+    width: 80px;
+}
