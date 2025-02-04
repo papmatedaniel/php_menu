@@ -36,6 +36,9 @@
     div#lablec{
         background-color: #000;
         color: #fff;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
     }
     form.szavazodoboz{
         height: 200px;
@@ -88,7 +91,7 @@
         background-color: green;
         color: #fff;
         height: 50px;
-        width: 100px;
+        width: 200px;
         font-size: 20px;
         border-radius: 7px;
     }
@@ -107,6 +110,13 @@
         <a href='./?p=rolunk'>Rólunk</a>     |
         <a href='./?p=szavazas'>Szavazás</a> |
         <a href='./?p=vendegkonyv'>Vendégkönyv</a> |
+        <a href='./?p=kutyaapi'>Kutyák</a> |
+        <a href='./?p=randomuser'>Randomfelhasználó</a> |
+        <a href='./?p=kriptovaluta'>kriptovaluta</a> |
+        <a href='./?p=gpskoordinatak'>Gpskoordoinata</a> |
+
+
+
 
 
         ]
@@ -124,6 +134,12 @@
     if( $p=="rolunk"  ) include("rolunk.php")                        ; else
     if( $p=="szavazas"  ) include("szavazas.php")                        ; else
     if( $p=="vendegkonyv"  ) include("vendegkonyv.php")                        ; else
+    if( $p=="kutyaapi"  ) include("kutyaapi.php")                        ; else
+    if( $p=="randomuser"  ) include("randomuser.php")                        ; else
+    if( $p=="kriptovaluta"  ) include("kriptovaluta.php")                        ; else
+    if( $p=="gpskoordinatak"  ) include("gpskoordinatak.php")                        ; else
+
+
                         include("404.php")                           ;
 
 ?>
